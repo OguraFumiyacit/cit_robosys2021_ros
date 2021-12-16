@@ -12,7 +12,7 @@ txtファイルから一文ずつ表示するプログラムです。デフォ�
 パッケージをROSのsrcフォルダ下にインストール。
 ```
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/OguraFumiyacit/robosys2021_ros_okyou.git
+$ git clone https://github.com/OguraFumiyacit/cit_robosys2021_ros.git
 $ cd ..
 $ catkin_make
 ```
@@ -25,5 +25,5 @@ $ roscore
 ```
 2. 端末2でscripts下でokyou.pyを立ち上げる。
 ```
-$ cd ~/catkin_ws/src/robosys2021_ros_okyou/scripts
+$ cd ~/catkin_ws/src/cit_robosys2021_ros/scripts
 
