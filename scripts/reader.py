@@ -4,7 +4,7 @@ from std_msgs.msg import Int32
 
 
 def cb(message):
-    f = open('kyoten.txt', 'r')
+    f = open('scripture.txt', 'r')
     global n
     n = message.data
     str = f.readlines()[n]
@@ -12,6 +12,6 @@ def cb(message):
 
 
 if __name__ == '__main__':
-    rospy.init_node('obousan')
+    rospy.init_node('reader')
     sub = rospy.Subscriber('count_up', Int32, cb)
     rospy.spin()
