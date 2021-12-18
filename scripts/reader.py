@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
 import rospy
-from std_msgs.msg import Int32
+from std_msgs.msg import String
 
 
 def cb(message):
-    f = open('scripture.txt', 'r')
-    global n
-    n = message.data
-    str = f.readlines()[n]
-    print(str)
+    rospy.loginfo(message.data)
+    #f = open('scripture.txt', 'r')
+    #global n
+    #n = message.data
+    #str = f.readlines()[n]
+    #print(str)
 
 
 if __name__ == '__main__':
     rospy.init_node('reader')
-    sub = rospy.Subscriber('count_up', Int32, cb)
+    sub = rospy.Subscriber('count_up', String, cb)
     rospy.spin()
