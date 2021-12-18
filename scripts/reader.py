@@ -5,11 +5,6 @@ from std_msgs.msg import String
 
 def cb(message):
     rospy.loginfo(message.data)
-    #f = open('scripture.txt', 'r')
-    #global n
-    #n = message.data
-    #str = f.readlines()[n]
-    #print(str)
 
 
 if __name__ == '__main__':
