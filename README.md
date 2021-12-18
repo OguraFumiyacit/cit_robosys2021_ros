@@ -26,11 +26,11 @@ $ roscore
 2. 端末2のscripts下でtalker.pyを立ち上げる。
 ```
 $ cd ~/catkin_ws/src/cit_robosys2021_ros/scripts
-$ rosrun cit_robosys2021_ros talker.py
+$ rosrun robosys2021_ros talker.py
 ```
 3. 端末3でreader.pyを立ち上げる。
 ```
-$ rosrun cit_robosys2021_ros reader.py
+$ rosrun robosys2021_ros reader.py
 ```
 
 # 補足
