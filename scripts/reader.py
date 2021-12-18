@@ -1,4 +1,4 @@
-#SPDX-License-Identifier: BSD-3.0
+#SPDX-License-Identifier: BSD-2.0
 #Copyright (C) 2021 Fumiya Ogura, Ryuichi ueda. All rights reserved.
 
 
