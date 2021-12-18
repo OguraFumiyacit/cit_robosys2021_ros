@@ -1,4 +1,4 @@
-# cit_robosys2021_ros
+# robosys2021_ros
 
 # 概要
 txtファイルから一文ずつ表示するプログラムです。デフォルトでは般若心経を読み上げます。
@@ -41,8 +41,10 @@ $ rosrun robosys2021_ros reader.py
 * talker.py内の
 ```rate = rospy.Rate(0.5)  #表示間隔```で表示間隔を変更できます。
 
+# Author
+* 作成者 Fumiya Ogura, Ryuichi ueda
+* 所属 千葉工業大学先進工学部未来ロボティクス学科
+* E-mail s20c1029ua@s.chibakoudai.jp
+* 
 # LINECENSE
 This repository is licensed under the BSD license
-
-# CONTRIBUTOR
-(c) 2021 Ryuichi Ueda and Fumiya Ogura
