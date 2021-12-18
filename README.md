@@ -45,6 +45,6 @@ $ rosrun robosys2021_ros reader.py
 * 作成者 Fumiya Ogura, Ryuichi ueda
 * 所属 千葉工業大学先進工学部未来ロボティクス学科
 * E-mail s20c1029ua@s.chibakoudai.jp
-* 
+
 # LINECENSE
 This repository is licensed under the BSD license
