@@ -4,6 +4,9 @@
 txtファイルから一文ずつ表示するプログラムです。デフォルトでは般若心経を読み上げます。
 txtファイルを改変すれば好きな文章を使用できます。
 
+# DEMO
+https://www.youtube.com/watch?v=sD5HYIBAuLk
+
 # 動作環境
 * Raspberry Pi 3 Model B＋
 * Ubuntu 20.04
@@ -37,3 +40,9 @@ $ rosrun robosys2021_ros reader.py
 * scripture.txtを書き換えれば好きな文章を使用できます。
 * talker.py内の
 ```rate = rospy.Rate(0.5)  #表示間隔```で表示間隔を変更できます。
+
+# LINECENSE
+This repository is licensed under the BSD license
+
+# CONTRIBUTOR
+(c) 2021 Ryuichi Ueda and Fumiya Ogura
