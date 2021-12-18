@@ -1,3 +1,7 @@
+#SPDX-License-Identifier: BSD-3.0
+#Copyright (C) 2021 Fumiya Ogura, Ryuichi ueda. All rights reserved.
+
+
 #!/usr/bin/env python3
 import rospy
 from std_msgs.msg import String
