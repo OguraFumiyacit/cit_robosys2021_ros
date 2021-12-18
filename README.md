@@ -5,7 +5,7 @@ txtファイルから一文ずつ表示するプログラムです。デフォ�
 
 # 動作環境
 * Raspberry Pi 3 Model B＋
-* Ubuntu 18.04
+* Ubuntu 20.04
 * ROS noetic
 
 # 環境構築
