@@ -4,7 +4,7 @@ from std_msgs.msg import String
 
 rospy.init_node('talker')
 pub = rospy.Publisher('count_up',String, queue_size=1)
-rate = rospy.Rate(1)
+rate = rospy.Rate(0.5)  #表示間隔
 n = 0
 
 
